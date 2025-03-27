@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: authms-container
-          image: medhakommana/auth931:v10
+          image: medhakommana/auth930:latest-436ee23
           ports:
             - containerPort: 3000
           envFrom:
